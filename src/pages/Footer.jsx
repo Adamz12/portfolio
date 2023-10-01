@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer__wrapper">
       <a href="#" className="footer__logo">
-        <img src={FooterLogo} alt="" />
+        {/* <img src={FooterLogo} alt="" /> */}
         <span className="footer__scroll-top">
           Top <MdOutlineArrowUpward />
         </span>
@@ -29,7 +29,7 @@ const Footer = () => {
           <a href="mailto:adamzain047@gmail.com">Email</a>
         </div>
         <div>
-          <a target="_blank" href="/resume-1.pdf">
+          <a target="_blank" href="/adam-resume.pdf">
             Resume
           </a>
         </div>

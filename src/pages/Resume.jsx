@@ -29,7 +29,7 @@ const Resume = () => {
             <div className="resume__contact--info">
               <div>
                 <FaDownload />
-                <a className="resume__link" href="/resume-1.pdf" target="_blank">
+                <a className="resume__link" href="/adam-resume.pdf" target="_blank">
                   Download resume
                 </a>
               </div>
