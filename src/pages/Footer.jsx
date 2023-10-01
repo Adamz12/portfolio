@@ -29,7 +29,9 @@ const Footer = () => {
           <a href="mailto:adamzain047@gmail.com">Email</a>
         </div>
         <div>
-          <a href="">Resume</a>
+          <a target="_blank" href="/resume-1.pdf">
+            Resume
+          </a>
         </div>
       </div>
       <div>Copyright &copy; 2023 Adam Zain</div>
