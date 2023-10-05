@@ -18,22 +18,20 @@ function Contact({ setRotateSpeed }) {
   const form = useRef();
 
   useEffect(() => {
-    init(process.env.REACT_APP_USER_ID);
+    emailjs.init("GhHQQ30FWoIg8QtEg"); // Initialize emailjs with your user ID
   }, []);
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const sendEmail = (event) => {
+    event.preventDefault();
     setIsSending(true);
     setRotateSpeed(60);
+
     emailjs
       .sendForm(
-        "gmail",
-        "template_dyvlfqm",
-        // process.env.REACT_APP_SERVICE_ID,
-        // process.env.REACT_APP_TEMPLATE_ID,
-        form.current,
-        // process.env.REACT_APP_USER_ID
-        "user_UCVQB9AIUbJaobUtpSXnz"
+        "service_gn1a1wh",
+        "template_g2pdtxo",
+        event.target,
+        "GhHQQ30FWoIg8QtEg"
       )
       .then(
         (res) => {
@@ -44,12 +42,12 @@ function Contact({ setRotateSpeed }) {
           setIsSending(false);
         },
         (err) => {
-          console.log(err.text);
+          console.log(err);
           setRotateSpeed(0.5);
           setIsSending(false);
           setHeaderText({ text: "Something went wrong", modifier: "-error" });
           alert(
-            "My email service is temporarily unavailable. I’d still love to hear from you, so please email me directly at email@email.com"
+            "My email service is temporarily unavailable. I’d still love to hear from you, so please email me directly at adamzain047@gmail.com"
           );
         }
       )
