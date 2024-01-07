@@ -29,7 +29,7 @@ const Footer = () => {
           <a href="mailto:adamzain047@gmail.com">Email</a>
         </div>
         <div>
-          <a target="_blank" href="/Software-CV_1.pdf">
+          <a target="_blank" href="/Software-CV.pdf">
             Resume
           </a>
         </div>
