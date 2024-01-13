@@ -31,7 +31,7 @@ const Resume = () => {
                 <FaDownload />
                 <a
                   className="resume__link"
-                  href="/Adam-Resume.pdf"
+                  href="/adam-resume.pdf"
                   target="_blank"
                 >
                   Download resume
