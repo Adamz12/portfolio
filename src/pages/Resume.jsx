@@ -29,7 +29,11 @@ const Resume = () => {
             <div className="resume__contact--info">
               <div>
                 <FaDownload />
-                <a className="resume__link" href="/Software-CV.pdf" target="_blank">
+                <a
+                  className="resume__link"
+                  href="/Adam-Resume.pdf"
+                  target="_blank"
+                >
                   Download resume
                 </a>
               </div>
@@ -97,57 +101,30 @@ const Resume = () => {
                   </div>
                 </div>
                 <div className="resume__job--date">
-                  March 2023 - September 2023{" "}
+                  August 2023 - December 2023{" "}
                 </div>
               </div>
 
               <ul className="resume__list-wrapper">
                 <li>
-                  Transformed a completely static HTML, CSS, JavaScript and
-                  React single page application into an interactive user
-                  interface using animations, transitions, and carousels
+                  Conceptualized and launched an intuitive platform enabling
+                  users to effortlessly grasp fundamental concepts from
+                  extensive literary works using AI. Received a 95% satisfaction
+                  rate based on user feedback, highlighting the system’s
+                  accuracy and readability.
                 </li>
                 <li>
-                  Processed API requests with Axios to dynamically represent
-                  data from a cloud server and represented it through skeleton
-                  loading states, pagination and dynamic routing
+                  Developed a dynamic web application leveraging React
+                  Typescript, Firebase and Redux, allowing users to seemingly
+                  login, sign up and manage subscription plans.
                 </li>
                 <li>
-                  Utilized Git version control and the GitHub interface to work
-                  and thrive in a virtual and collaborative team environment
+                  Utilized Next.js for server-side rendering, enhanced
+                  performance, and integrated Material-UI for visual appealing
+                  and consistent user interface
                 </li>
               </ul>
             </div>
-            {/* <div className="resume__job--wrapper">
-              <div className="resume__job">
-                <div>
-                  <div className="resume__job--name">Adam Zain</div>
-                  <div className="resume__job--description">
-                    Freelance Developer
-                  </div>
-                </div>
-                <div className="resume__job--date">March 2023 - Current </div>
-              </div>
-
-              <ul className="resume__list-wrapper">
-                <li>
-                  Developed 5 professional websites utilizing HTML5, CSS3
-                  (including SCSS and BEM methodology), JavaScript, and React
-                  while adhering to industry best practices.
-                </li>
-                <li>
-                  Implemented advanced techniques like image compression,
-                  caching strategies, and lazy loading for images and components
-                  to boost website performance and user experience.
-                </li>
-                <li>
-                  Ensured comprehensive website features, including SEO
-                  integration, responsive design, multi-platform compatibility,
-                  and seamless hosting support, to guarantee accessibility and
-                  functionality across diverse browsers and devices worldwide.
-                </li>
-              </ul>
-            </div> */}
           </div>
         </div>
 
